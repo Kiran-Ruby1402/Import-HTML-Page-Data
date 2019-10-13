@@ -5,20 +5,20 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version 2.6.5
 
-* System dependencies
+* Rails version 6.0.0
 
-* Configuration
+* Configuration(Change Username and Password in database.yml file)
 
-* Database creation
+* Database creation(rails db:create)
 
-* Database initialization
+* Database initialization(rails db:migrate)
 
-* How to run the test suite
+* "rails s" in termminal to run the application
 
-* Services (job queues, cache servers, search engines, etc.)
+* Enter localhost:3000 in browser
 
-* Deployment instructions
+* Open New terminal Window then enter "rails 'import:html_info'" after successfully importing data you will get message "Data imported successfully." in terminal.
 
-* ...
+*Then refresh browser localhost:3000 page. Here you can able to see the HTML Imported Data
